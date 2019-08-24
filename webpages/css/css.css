@@ -1,0 +1,477 @@
+
+body{
+padding:0;
+margin:0;
+user-select: none;
+background-image: url(../images/background.jpg);
+background: cover;
+background-position: 0 0;
+animation: animate 100s linear infinite;	
+overflow-x: hidden;
+}
+
+
+@keyframes animate 
+{
+	from{
+		background-position: 0 0;
+	}
+	to{
+		background-position: 100% 0;
+	}
+}
+
+
+#particles-js{
+	position: fixed;
+	z-index: 6;
+	height: 100vh;
+	width: 100%;
+}
+.fixedme{
+	background:transparent;
+	border:none;
+	font-size: 2.3em; 
+	position: fixed;
+	top: 35vh;
+	left: 0;
+	z-index: 9;
+
+}
+
+.fixedme2{
+	background:transparent;
+	border:none;
+	font-size: 2.3em; 
+	position: fixed;
+	top: 35vh;
+	right: 0;
+	z-index: 9;
+
+}
+
+
+.fixedme a{
+color: snow;
+}
+
+.fixedme2	 a{
+color: snow;
+}
+
+.start{
+	height: 100vh;
+}
+
+.nav{
+	font-size:  1.5em;
+	z-index: 9;
+	top: 2	0px;
+	position: fixed;
+	cursor:pointer;
+	
+	}
+
+.nav2{
+	font-size:  1.5em;
+	z-index: 9;
+	bottom: 30px;
+	position: fixed;
+	cursor:pointer;
+		
+}
+.nav div{
+	margin-top: 10px;
+}
+
+.nav2 div{
+	margin-top: 10px;
+	border-radius: 5px;
+}
+
+.nav div div{
+	box-shadow: 2px 2px 5px skyblue;
+	border-radius: 2px;	
+}
+
+.nav div div:hover{
+	
+	text-shadow: 5px 5px 8px black;
+	border-radius: 2px;
+}
+
+
+.nav2 div div:hover{
+	
+	text-shadow: 5px 5px 8px black;
+}
+
+
+.nav2 div div{
+	box-shadow: 2px 2px 5px skyblue;
+}
+
+
+
+
+.main_body{
+	z-index: 8;
+	margin-top: 100px;
+}
+
+.main_body .class1{
+	font-size: 3em;
+	color: skyblue;
+	line-height: 1.5em;
+	font-family: felix;
+}
+
+
+.main_body .class2{
+	font-size: 9em;
+	color: snow;
+	font-family: colonna MT;
+	line-height: .8em;
+	text-shadow: 2px 2px 5px grey;
+}
+
+
+.main_body .class3{
+	font-size: 3em;
+	color: snow;
+	color: skyblue;
+	font-family: BankGothic;
+}
+
+
+.idea{
+	margin-top: 40vh;
+	height: 100vh;
+	background: skyblue;
+}
+
+.idea h1{
+		font-size: 5em;
+		font-family: felix;
+	 margin-top: 50px; 
+	 margin-bottom: 20px;
+}
+
+.idea h2{
+	font-family: lucida bright;
+
+}
+.idea11{
+	padding-left: 30px;
+	
+}
+
+.idea12{
+	padding-left: 30px;
+	
+	border-left: 2px solid black;
+}
+
+.idea p{
+	text-indent: 60px;
+	font-size: 1.6em;
+	padding: 20px;
+	font-family: lucida bright;
+}
+
+.registration{
+	background: black;
+	height: 100vh;
+	color: snow;
+}
+.registration h1{
+		font-size: 3em;
+		font-family: felix;
+	 margin-top: 10px; 
+	 margin-bottom: 20px;	  
+}
+
+.registration p{
+	text-indent: 60px;
+	font-size: 2.5em;
+	font-family: Elephant;
+}
+
+.registration .reg{
+	margin-top: 50px;
+	font-size: 7em;
+	font-family: BankGothic;
+}
+
+.registration .reg2{
+	font-size: 3em;
+	font-family: BankGothic;
+}
+
+
+
+
+
+
+.members{
+	background: skyblue;
+	height: 100vh;
+	color: black;
+}
+.members h1{
+		font-size: 5em;
+		font-family: felix;
+	 margin-top: 30px;
+	 margin-bottom: 30px; 
+
+}
+
+
+.members h2{
+		font-size: 1.3em;
+		font-family: BankGothic;
+		color: black;			 
+}
+
+
+.contact{
+	background: #2c2c32;
+		padding: 50px;
+		padding-top: 5px;
+		height: 100vh;
+	color: snow;
+
+}
+
+.contact h1{
+	color: snow;
+	font-size: 7em;
+	font-family: BankGothic;
+	 margin-top: 50px; 
+
+}
+
+.contact h2{
+	color: snow;
+	font-size: 2em;
+	font-family: elephant;
+}
+
+.contact h3{
+	color: snow;
+	font-size: 2em;
+	font-family: elephant;
+}
+
+.contact .head{
+	font-size: 3em;
+	font-family:felix ;
+	margin-bottom: 30px;
+}
+
+
+
+.posters{
+	background: grey;
+	height: 200vh;
+	color: snow;
+
+}
+
+.posters h1{
+		font-size: 5em;
+		font-family: felix;
+	 	margin-top: 40px; 
+	 	color: black;
+
+}
+
+
+.posters h2{
+	color: snow;
+	font-size: 2em;
+	font-family: BankGothic;
+}
+
+
+
+
+
+@media (max-width: 768px)
+{
+
+
+.nav{
+	font-size:  1.2em;
+}
+
+
+.nav2{
+	font-size:  1.2em;
+}
+
+
+.nav div{
+	margin-top: 5px;
+}
+
+.nav2 div{
+	margin-top: 5px;
+}
+
+.nav2{
+	bottom: 10px;
+}
+			.csi_logo img{
+				width: 100px;
+			}
+			
+			.fixedme{
+				top: 40vh;
+				font-size: 1.5em;
+			}
+
+			.main_body{
+				line-height: 4em;
+
+				}
+			
+				.main_body .class1{
+				font-size: 1.8em;
+				color: skyblue;
+				}
+
+				.main_body .class2{
+					font-size: 5em;
+					color: snow;
+					font-family: colonna MT;
+				}
+
+
+				.main_body .class3{
+					font-size: 2em;
+					color: snow;
+					color: skyblue;
+				}
+
+
+
+
+.idea{
+	margin-top: 10vh;
+	height: 100vh;
+	background: skyblue;
+}
+
+.idea h1{
+		font-size: 3em;
+	 margin-top: 50px; 
+}
+
+.idea11{
+	padding-left: 10px;
+	
+}
+
+.idea12{
+	padding-left: 10px;
+	
+	border-left: 2px solid black;
+}
+
+.idea p{
+	text-indent: 60px;
+	font-size: 1em;
+	padding: 10px;
+}
+
+.registration{
+	background: black;
+	height: 100vh;
+	color: snow;
+}
+.registration h1{
+		font-size: 1.7em;
+	  
+}
+.registration p{
+	text-indent: 60px;
+	font-size: 1.4em;
+}
+
+.registration .reg{
+	margin-top: 50px;
+	font-size: 3em;
+}
+
+.registration .reg2{
+	font-size: 2em;
+}
+
+
+
+
+
+.members{
+	height: 130vh;
+	
+}
+.members h1{
+		font-size: 4em;
+	 margin-top: 100px; 
+
+}
+
+.members h2{
+		font-size: 1em;
+
+}
+
+.contact{
+	background: #2c2c32;
+		padding: 5px;
+		padding-top: 5px;
+}
+
+.contact h1{
+	color: snow;
+	font-size: 3.8em;
+}
+
+.contact h2{
+	color: snow;
+	font-size: 1.3em;
+}
+
+.contact h3{
+	color: snow;
+	font-size: 1.3em;
+	font-family: elephant;
+}
+
+.contact .head{
+	font-size: 1.6em;
+	font-family: lucida bright;
+}
+
+
+
+
+.posters h1{
+		font-size: 4em;
+	 margin-top: 90px; 
+
+}
+
+
+.posters h2{
+	font-size: 2em;
+}
+
+
+
+
+
+
+}
+

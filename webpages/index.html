@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>EVENTS 2K19</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<script src="js/modernizr.custom.js"></script>
+	
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css"  href="css/css.css">
+
+</head>
+
+
+<style type="text/css">
+
+</style>
+
+</head>
+<body onload="typeWriter(); startTime(); " >
+<audio src="system/song.mp3" autoplay="true" loop="true"></audio>
+		
+		
+<div class="container-fluid" id="particles-js">
+</div>
+
+<div class="row start" id="start">
+
+
+<button class="fixedme">
+	<a href="#start"><span class="fa fa-eject"></span></a><br>
+	<a href="https://www.facebook.com/CSI.JNEC/?ref=br_rs"><span class="fa fa-facebook-official"></span></a><br>
+	<a href="https://www.instagram.com/jnec_csi/"><span class="fa fa-instagram"></span></a><br>
+	<a href="#" onclick="alert('jnec.sbc.csi@gmail.com')"><span class="fa fa-envelope"></span></a><br>
+</button>
+<button class="fixedme2">
+	<a href="#start"><span class="fa fa-eject"></span></a><br>
+	<a href="https://www.facebook.com/CSI.JNEC/?ref=br_rs"><span class="fa fa-facebook-official"></span></a><br>
+	<a href="https://www.instagram.com/jnec_csi/"><span class="fa fa-instagram"></span></a><br>
+	<a href="#" onclick="alert('jnec.sbc.csi@gmail.com')"><span class="fa fa-envelope"></span></a><br>
+</button>
+
+
+<div class="container-fluid ">
+
+
+<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 nav" >
+	<div class="col-md-3 col-lg-3 col-sm-12 col-xs-12 ">
+		<a href="#idea">
+			<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12  text-center bg-primary">
+			IDEA
+			</div>
+		</a>
+	</div>
+	<div class="col-md-3 col-lg-3 col-sm-12 col-xs-12 ">
+		<a href="#registration">
+			<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 text-center bg-primary">
+				REGISTRATION
+			</div>
+		</a>
+	</div>
+	<div class="col-md-3 col-lg-3 col-sm-12 col-xs-12 ">
+		<a href="#contact">
+			<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 text-center bg-primary">
+				CONTACT
+			</div>
+		</a>
+	</div>
+	<div class="col-md-3 col-lg-3 col-sm-12 col-xs-12 text-center">
+		<a href="#members">
+		<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 text-center bg-primary">
+			MEMBERS
+		</div>
+		</a>
+	</div>
+
+</div>
+
+
+<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 nav2">
+	<div class="col-md-3 col-lg-3 col-sm-12 col-xs-12 ">
+		<a href="#posters">
+		<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12  text-center bg-primary">
+			POSTERS
+		</div>
+		</a>
+	</div>
+	<div class="col-md-3 col-lg-3 col-sm-12 col-xs-12 ">
+		<a href="locate.html">
+		<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 text-center bg-primary">
+			LOCATE
+		</div>
+		</a>
+	</div>
+	<div class="col-md-3 col-lg-3 col-sm-12 col-xs-12 ">
+		<a href="getintouch.html">
+			<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 text-center bg-primary">
+				GET IN TOUCH
+			</div>
+		</a>	
+	</div>
+	<div class="col-md-3 col-lg-3 col-sm-12 col-xs-12 ">
+		<a href="help.html">
+		<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 text-center bg-primary">
+			HELP & SUPPORT
+		</div>
+		</a>
+	</div>
+
+</div>	
+
+
+			<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 main_body text-center"> 
+					<span class="class2 col-md-12 col-lg-12 col-sm-12 col-xs-12" id="demo" ></span>
+					<span class="class2 col-md-12 col-lg-12 col-sm-12 col-xs-12" id="demo2" ></span>
+					<span class="class1 col-md-12 col-lg-12 col-sm-12 col-xs-12" >Coming Soon</span>
+					<p id="mydate" class="class3">
+						
+					</p>
+					<span class="class2 col-md-12 col-lg-12 col-sm-12 col-xs-12" id="demo3" ></span>
+					<span class="class2 col-md-12 col-lg-12 col-sm-12 col-xs-12" id="demo4" ></span>
+									  	
+				</div>
+			</div>
+
+															<script>
+												// Set the date we're counting down to
+												var countDownDate = new Date("Mar 27, 2019 10:00:00").getTime();
+
+												// Update the count down every 1 second
+												var countdownfunction = setInterval(function() {
+
+												    // Get todays date and time
+												    var now = new Date().getTime();
+												    
+												    // Find the distance between now an the count down date
+												    var distance = countDownDate - now;
+												    
+												    // Time calculations for days, hours, minutes and seconds
+												    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+												    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+												    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+												    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+												    
+												    // Output the result in an element with id="demo"
+												    document.getElementById("mydate").innerHTML =  days + "D " + hours + "H "
+												    + minutes + "M " + seconds + "S ";
+												    
+												    // If the count down is over, write some text 
+												    if (distance < 0) {
+												        clearInterval(countdownfunction);
+												        document.getElementById("mydate").innerHTML = "EXPIRED";
+												    }
+												}, 1000);
+												</script>
+
+
+
+
+</div>
+<div class="row idea" id="idea">
+	
+	<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 text-center">
+		<h1>IDEA</h1>
+	</div>
+
+	<div class="col-md-6 col-lg-6 cl-sm-6 col-xs-6">
+		<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 idea11 ">
+			<h2>CODINGO</h2>
+			<h2><b>Round 1 :</b></h2>
+		<p>The participants will have to answer simple C questions and get the clues for next question.Last question will be the key to second round. </p>
+		</div>
+		<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 idea11">
+			<h2><b>Round 2 :</b></h2>
+			<p>Second Round will be the final round in which the participants will have to construct the code for the provided problem statement.</p>
+		</div>
+	</div>
+	
+
+	<div class="col-md-6 col-lg-6 cl-sm-6 col-xs-6">
+		<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 idea12 ">
+			<h2>'C' over Snakes</h2>
+			<h2><b>Rounds :</b></h2>
+		<p>Participants will be in the goruo of two. One member will roll the dice and another member will take the positions on the Snakes and Ladders Board. If he correctly answers the given question, he will proceed in the game.At atime, four to five teams will participate. The team which reaches the final block first or after a certain time limit, is closest to the final block will be the winner.</p>
+		</div>
+		
+	</div>
+		
+</div>
+
+<div class="row registration">
+	
+	<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 text-center" id="registration">
+		<div class="col-md-12 col-lg-12 col-xs-12 col-sm-12 reg">REGISTRATION</div>
+		<div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+		<h1>CODINGO 2.0</h1>
+		<p>Entry for Singles: 30/-<br>
+		For the team of Four:<br>
+		NON-CSI: 120/-<br>
+		CSI: 100/-<br>
+		<h1>SURVIVAL BATTLE</h1>
+	   <p>
+		For the team of Four: 100/-<br>
+		
+	   </p>
+	   </div>
+
+	   <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+		<h1>'C' OVER SNAKES</h1>
+		<p>Team of Two:<br>
+		NON-CSI: 50/-<br>
+		CSI: 40/-<br>
+	   </p>
+	   	<h1>JNEC KA KBC</h1>
+		<p>Entry for Team of Two: 40/-<br>
+		<br>
+	   </p>
+	
+	   </div>
+
+	   <div class="col-md-12 col-lg-12 col-xs-12 col-sm-12 reg2">
+		(Desk will be placed at your College)</div>
+	</div>
+
+
+</div>
+
+<div class="row contact" id="contact">
+	
+	<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 text-center" >
+		<h1 class="col-md-12 col-lg-12 col-sm-12 col-xs-12 text-center">Contact</h1>
+			<div class="col-md-12 col-lg-12 col-xs-12 col-xs-12 head">CODINGO  &  'C' OVER SNAKES</div>
+
+			<div class="col-md-3 col-lg-3 col-sm-6 col-xs-6">
+				<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+					<h2>SAURABH DHAKNE</h2>
+					<h3>+91 7769955625</h3>
+				</div>
+			</div>
+			<div class="col-md-3 col-lg-3 col-sm-6 col-xs-6">
+				<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+					<h2>SHUBHAM JADHAV</h2>
+					<h3>+91 7264952105</h3>
+				</div>
+			</div>
+			
+			<div class="col-md-3 col-lg-3 col-sm-6 col-xs-6">
+				<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+					<h2>PIYUSHA CHOUDHARI</h2>
+					<h3>+91 8237300870</h3>
+				</div>
+			</div>
+			<div class="col-md-3 col-lg-3 col-sm-6 col-xs-6">
+				<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+					<h2>SHALAKHA PADALKAR</h2>
+					<h3>+91 9049648281</h3>
+				</div>
+			</div>
+			<div class="col-md-12 col-lg-12 col-xs-12 col-xs-12 head">SURVIVAL BATTLE & JNEC KA KBC</div>
+
+			<div class="col-md-3 col-lg-3 col-sm-6 col-xs-6">
+				<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+					<h2>SAURABH DHAKNE</h2>
+					<h3>+91 7769955625</h3>
+				</div>
+			</div>
+			<div class="col-md-3 col-lg-3 col-sm-6 col-xs-6">
+				<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+					<h2>SHUBHAM JADHAV</h2>
+					<h3>+91 7264952105</h3>
+				</div>
+			</div>
+			
+			<div class="col-md-3 col-lg-3 col-sm-6 col-xs-6">
+				<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+					<h2>PIYUSHA CHOUDHARI</h2>
+					<h3>+91 8237300870</h3>
+				</div>
+			</div>
+			<div class="col-md-3 col-lg-3 col-sm-6 col-xs-6">
+				<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+					<h2>SHALAKHA PADALKAR</h2>
+					<h3>+91 9049648281</h3>
+				</div>
+			</div>
+
+			</div>
+	</div>
+
+
+</div>
+
+<div class="row  members" id="members">
+	
+	<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 text-center" >
+		<h1>MEMBERS</h1>
+
+			<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+				<h2 class="col-md-3 col-lg-3 col-sm-6 col-xs-6">SARJIL TIKKI</h2>
+				<h2 class="col-md-3 col-lg-3 col-sm-6 col-xs-6">SAURABH DHAKNE</h2>
+				<h2 class="col-md-3 col-lg-3 col-sm-6 col-xs-6">SAURABH SABLE</h2>
+				<h2 class="col-md-3 col-lg-3 col-sm-6 col-xs-6">KASHIMIRA BHALE</h2>
+
+				<h2 class="col-md-3 col-lg-3 col-sm-6 col-xs-6">PIYUSHA CHOUDHARI</h2>
+				<h2 class="col-md-3 col-lg-3 col-sm-6 col-xs-6">MINAL DARAKH</h2>
+				<h2 class="col-md-3 col-lg-3 col-sm-6 col-xs-6">DHANANJAY ADHAV</h2>
+				<h2 class="col-md-3 col-lg-3 col-sm-6 col-xs-6">PRASHANT DOLAWAT</h2>
+
+				<h2 class="col-md-3 col-lg-3 col-sm-6 col-xs-6">YOGESH INGLE</h2>
+				<h2 class="col-md-3 col-lg-3 col-sm-6 col-xs-6">NIHAREEKA GOTE</h2>
+				<h2 class="col-md-3 col-lg-3 col-sm-6 col-xs-6">SHUBHAM JADHAV</h2>
+				<h2 class="col-md-3 col-lg-3 col-sm-6 col-xs-6">SAKSHI BODKHE</h2>
+
+
+				<h2 class="col-md-3 col-lg-3 col-sm-6 col-xs-6">PRAVIN WAGH</h2>
+				<h2 class="col-md-3 col-lg-3 col-sm-6 col-xs-6">GAURI WADALKAR</h2>
+				<h2 class="col-md-3 col-lg-3 col-sm-6 col-xs-6">SHALAKHA PADALKAR</h2>
+				<h2 class="col-md-3 col-lg-3 col-sm-6 col-xs-6">ATHARAV KULKARNI</h2>
+
+				<h2 class="col-md-3 col-lg-3 col-sm-6 col-xs-6">VARAD SALVI</h2>
+				<h2 class="col-md-3 col-lg-3 col-sm-6 col-xs-6">GUNICA BAGGA</h2>
+				<h2 class="col-md-3 col-lg-3 col-sm-6 col-xs-6">AMRUTA GADEKAR</h2>
+				<h2 class="col-md-3 col-lg-3 col-sm-6 col-xs-6">UTKARSHA PURANIK</h2>
+
+				<h2 class="col-md-3 col-lg-3 col-sm-6 col-xs-6">VAISHNAVI DASALKAR</h2>
+				<h2 class="col-md-3 col-lg-3 col-sm-6 col-xs-6">HRISHIKESH WADGOANKAR</h2>
+				<h2 class="col-md-3 col-lg-3 col-sm-6 col-xs-6">DANSHREE PANPATTE</h2>
+				<h2 class="col-md-3 col-lg-3 col-sm-6 col-xs-6">SAKSHI SHRIRAMWAR</h2>
+
+				<h2 class="col-md-3 col-lg-3 col-sm-6 col-xs-6">NIDHI PATNI</h2>
+				<h2 class="col-md-3 col-lg-3 col-sm-6 col-xs-6">RANVEER RAJPUT</h2>
+				<h2 class="col-md-3 col-lg-3 col-sm-6 col-xs-6">NIKITA BANTIA</h2>
+				<h2 class="col-md-3 col-lg-3 col-sm-6 col-xs-6">VISHAL GAWANDE</h2>
+
+				<h2 class="col-md-3 col-lg-3 col-sm-6 col-xs-6">CHAITALI TAMBOLIYA</h2>
+				<h2 class="col-md-3 col-lg-3 col-sm-6 col-xs-6">RUTUJ BHAKRE</h2>
+				<h2 class="col-md-3 col-lg-3 col-sm-6 col-xs-6">RUSHIKESH PAWAR</h2>
+				<h2 class="col-md-3 col-lg-3 col-sm-6 col-xs-6"></h2>
+
+
+
+			</div>
+			
+	</div>
+
+
+</div>
+
+
+<div class="row posters" id="posters">
+	
+	<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 text-center" >
+		<h1>POSTERS</h1>
+		<div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+			<h2>CODINGO</h2>
+			<img src="images/coding.jpg" width="90%">
+		</div>
+
+		<div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+			<h2>'C' OVER SNAKES</h2>
+			<img src="images/coversnakes.jpg" width="90%">
+		</div>
+
+	</div>
+
+	<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 text-center" >
+		
+		<div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+			<h2>SURVIVAL BATTLE</h2>
+			<img src="images/survival.jpg" width="90%">
+		</div>
+
+		<div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+			<h2>JNEC KA KBC</h2>
+			<img src="images/kbc.png" width="90%">
+		</div>
+
+	</div>
+	
+
+</div>
+
+
+
+
+
+
+<script src="system/particles.js"></script>
+<script src="system/app.js"></script>
+
+
+<!-- Script for Easy Scrolling -->
+
+
+<script type="text/javascript">
+
+
+$('a[href*="#"]')
+  .not('[href="#"]')
+  .not('[href="#0"]')
+  .click(function(event) {
+    if (
+      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+      && 
+      location.hostname == this.hostname
+    ) {
+      // Figure out element to scroll to
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      // Does a scroll target exist?
+      if (target.length) {
+        // Only prevent default if animation is actually gonna happen
+        event.preventDefault();
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000, function() {
+          // Callback after animation
+          // Must change focus!
+          var $target = $(target);
+          $target.focus();
+          if ($target.is(":focus")) { // Checking if the target was focused
+            return false;
+          } else {
+            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+            $target.focus(); // Set focus again
+          };
+        });
+      }
+    }
+  });
+
+//typewritter
+
+var i = 0;
+var txt = 	"CODINGO 2.0";
+var txt2 = 	"'C' OVER SNAKES";
+var txt3 = 	"SURVIVAL BATTLE";
+var txt4 = 	"JNEC KA KBC";
+var speed = 300;
+
+function typeWriter() {
+  if (i < txt2.length) {
+    document.getElementById("demo").innerHTML += txt.charAt(i);
+    document.getElementById("demo2").innerHTML += txt2.charAt(i);
+    document.getElementById("demo3").innerHTML += txt3.charAt(i);
+    document.getElementById("demo4").innerHTML += txt4.charAt(i);
+    
+    i++;
+    setTimeout(typeWriter, speed);
+
+  }
+}
+</script>
+
+
+</body>
+</html>
