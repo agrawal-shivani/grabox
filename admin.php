@@ -22,7 +22,7 @@ if(isset($_POST['sub2']))
         
 			if ($uname == $user && $password == $psd) {
 				session_start();
-		          $_SESSION['username']=$user;
+		          $_SESSION['username']=$user;  /* Session variables can be accessed during lifetime of a session */
                                
         
 
