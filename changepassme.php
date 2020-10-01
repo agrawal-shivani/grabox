@@ -1,16 +1,14 @@
 <?php
 
 $servername = "localhost";
- $username = "root"; $password = "";
-  $dbname = "thegrabbox";
+$username = "root"; $password = "";
+$dbname = "thegrabbox";
 
 $ppass=$_GET['ppass'];
 $npass=$_GET['npass'];
 
-
 include 'check_con.php';
 session_start();
-
 
 if(isset($_SESSION['username']))
 {
@@ -46,19 +44,19 @@ if ($myid->num_rows > 0) {
 
 if (mysqli_query($conn,$sql))
  {    
-    echo "alert(password Change Successfully);";
-    header('location:index.php');
+      echo "alert(password Change Successfully);";
+      header('location:index.php');
 
   
   }        
 
 else{
-    echo" Unable to change Password";
+       echo" Unable to change Password";
      }
     
 
 }
 
- mysqli_close($conn);   
+mysqli_close($conn);   
     
-    ?>
+?>
