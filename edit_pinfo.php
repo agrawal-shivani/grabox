@@ -118,28 +118,28 @@ $sql2 = "Select * from vendor_$user where id=$pid";
       <label for="mens">Mens</label><br>
 
       <input type="radio"  id="tech" name="field" value="womens">
-      <label for="womens">Womens</label><br>
+      <label class="control-label" for="womens">Womens</label><br>
 
       <input type="radio"  id="accessaries" name="field" value="Other">
-      <label for="accessaries">Other Product</label><br>
+      <label class="control-label" for="accessaries">Other Product</label><br>
 
     </div>
 
     <div class="form-group">
-      <label for="name">Name of Product:</label>
-      <input type="text" class="form-control" id="name" value="<?php echo $name ;?>" name="name" required>
+      <label class="control-label" for="name">Name of Product:</label>
+      <input type="text" class="form-control" id="name" value="<?php echo $name ;?>" name="name" required="required" />
     </div>
             
 
     <div class="form-group">
-      <label for="mobile">Your Selling Rate:</label>
-      <input type="number" minlength="10" class="form-control" id="irate" value="<?php echo $irate ; ?>" name="irate" required>
+      <label class="control-label" for="mobile">Your Selling Rate:</label>
+      <input type="number" minlength="10" class="form-control" id="irate" value="<?php echo $irate ; ?>" name="irate" required="required" />
    	 </div>
                     
 
     <div class="form-group">
-      <label for="password">Information:</label>
-      <input type="text" class="form-control" id="info" value="<?php echo $info ; ?>" name="info" required>
+      <label class="control-label" for="password">Information:</label>
+      <input type="text" class="form-control" id="info" value="<?php echo $info ; ?>" name="info" required="required" />
     </div>
           
                     
