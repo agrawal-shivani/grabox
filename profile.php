@@ -282,7 +282,7 @@ else
 								<li>Akashwani Chowk</li>
 								<li>Kranti Chowk</li>
 								<li>Darga</li>
-								<li>Deolai chowk</li>	
+								<li>Deolai Chowk</li>	
 							</ul>
 						</div>
 
