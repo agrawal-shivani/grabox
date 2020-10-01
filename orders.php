@@ -73,10 +73,10 @@ if(isset($_SESSION['username']))
 <div class="row">
 <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 mynav ">
 
-	<a href="mens.php"><div class="col-md-3 col-lg-3 col-sm-3 col-xs-3  element"><span class="menu shirt">Mens</span> </div></a>
+	 <a href="mens.php"><div class="col-md-3 col-lg-3 col-sm-3 col-xs-3  element"><span class="menu shirt">Mens</span> </div></a>
 	
 	 <a href="womens.php"><div class="col-md-3 col-lg-3 col-sm-3 col-xs-3  element"><span class="menu womens">Womens</span></div></a>
-		<a href="other.php"><div class="col-md-3 col-lg-3 col-sm-3 col-xs-3  element"><span class="menu tech">Other</span> </div></a>	
+	 <a href="other.php"><div class="col-md-3 col-lg-3 col-sm-3 col-xs-3  element"><span class="menu tech">Other</span> </div></a>	
 	 <a href="orders.php"><div class="col-md-3 col-lg-3 col-sm-3 col-xs-3 element"><span class="menu reparing">Orders</span></div></a>
 			 			 
 </div>
@@ -87,20 +87,18 @@ if(isset($_SESSION['username']))
     <div class="row">
 		<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 product">
 				
-					
-				
-			<?php
+<?php
     
             $sql = "Select * from orders where user='$user' "; 	            
-			$result = mysqli_query($conn,$sql);
+	    $result = mysqli_query($conn,$sql);
 
 		    if ($result->num_rows > 0) {
 	        while ($row = $result->fetch_assoc()) {
-				        		$mid = $row['id'];	
+				          $mid = $row['id'];	
 			                  $vuser = $row['vuser'];
 			                  $address = $row['address'];		
-                     		  $pid	= $row['pid'];
-                     		  $status = $row['status'];
+                     		          $pid	= $row['pid'];
+                     		          $status = $row['status'];
                     
             $sql = "Select * from vendor_$vuser where id='$pid' "; 	            
 			$result2 = mysqli_query($conn,$sql);
