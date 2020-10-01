@@ -42,11 +42,11 @@ padding-top: 10px;
 	<form method="POST" action="admin.php">
     <div class="form-group">
       <label for="username">Username:</label>
-      <input type="text" class="form-control" id="username" placeholder="Enter Username" name="username" required>
+      <input type="text" class="form-control" id="username" placeholder="Enter Username" name="username" required="required" />
     </div>
     <div class="form-group">
       <label for="password">Password:</label>
-      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="password" required>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="password" required="required" />
     </div>
     
     
