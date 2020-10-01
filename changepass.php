@@ -21,7 +21,7 @@ if(isset($_SESSION['username']))
          }
     } 
         else {   
-            echo "0 results";
+            echo "NO results";
         } 
     
 }
